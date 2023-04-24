@@ -1,0 +1,538 @@
+:root {
+    --primary: #38522b;
+    --bg: #0f5a36;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Alkatra', sans-serif;
+    background-color: #F1DBBF;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #FFACAC;
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #384e38;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-logo span {
+    color: #AA5656;
+}
+
+
+.navbar .navbar-nav a {
+    color: #AA5656;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #698269;
+}
+
+.navbar .navbar-extra a {
+    color: #1A5E3D;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+    color: #a92b90;
+}
+
+#star {
+    display: none;
+}
+
+/* herooo bukan hero emel */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Untitled20_20230421220629.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+
+}
+
+.hero .content {
+    padding: 1.4rem 3%;
+    max-width: 60rem;
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+    color: #571515;
+    text-shadow: 1px 1px 3px rgba(135, 218, 196, 0.521);
+    line-height: 1.2;
+}
+
+.hero .content h1 span {
+    color: #175333;
+}
+
+.hero .content h3 {
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+.hero .content p {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    color: #000000;
+}
+
+.hero .content .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(202, 85, 85);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* herooo bukan hero emel suud */
+
+/* cerita kami bukan kita;( */
+.about {
+    padding: 10rem 7% 1.4rem;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #557153;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.about h2 span {
+    color: #AA5656;
+    font-size: 4rem;
+}
+
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img{
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.6;
+    font-family: 'Dosis', sans-serif;
+    color: #557153;
+    text-align: center;
+}
+
+/* cerita suud */
+
+/* peroduq */
+
+.produk h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #557153;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.produk h2 span{
+    color: #AA5656;
+
+}
+
+.produk p {
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.produk .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.produk .row .product-card img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.produk .row .product-card .product-card-title{
+    margin-top: 1rem auto 0.5rem;
+    font-size: 2rem;
+}
+
+/*peroduk lese*/
+
+/*team ngezzz*/
+
+.team{
+    width: 100%;
+    height: 90vh;
+
+}
+
+.team .team_box .profile img{
+    width: 150px;
+
+}
+
+.team h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.team h1 span{
+    color: #a92b90;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+.team .team_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.team .team_box .profile{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 5px rgba(169, 43, 144, 0.865);
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover{
+    border-radius: 20px;
+    height: 320px;
+}
+
+.team .team_box .profile img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(170, 46, 46, 0.804);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+}
+
+.team .team_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+    top: 60%;
+}
+
+.team .team_box .profile .info .name{
+    color: #571515;
+    margin-bottom: 15px;
+
+}
+
+.team .team_box .profile .info .bio{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    
+}
+
+.team .team_box .profile .info .team_icon a{
+    margin: 10px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #571515;
+}
+
+.team .team_box .profile .info .team_icon a:hover{
+    color: #384e38;
+}
+
+/*team lese*/
+
+/*footeryey*/
+footer {
+    background-color: #557153;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    
+}
+
+footer .social {
+    padding: 0.2rem 0;
+}
+
+footer .social a {
+    color: #FFB9B9;
+    font-size: 1rem;
+    padding: 12px 1rem;
+}
+
+footer .social a:hover{
+    color: #EDE9D5;
+}
+
+footer .links a {
+    color: #FFB9B9;
+    padding: 0.7rem 1rem;
+    font-size: 1,5rem;
+    display: inline;
+}
+
+footer .credit {
+    font-size: 0.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+ footer.credit span {
+    color: #AA5656;
+ }
+
+
+
+/* media queries */
+
+/* Laptop */
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+    
+    #star {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #1a5e3d;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav a{
+        color: #ead5db;
+        font-size: 2rem;
+        display: block;
+        margin: 2rem;
+        padding: 0.5rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    .hero {
+        min-height: 100vh;
+        flex-wrap: wrap;
+        align-items: center;
+        background-image: url(../images/Untitled20_20230421220629.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: auto;
+        height: auto;
+    }   
+    
+    .hero::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        bottom: 0;
+    
+    }
+
+    .about .row {
+        flex-wrap: wrap;
+    }
+
+    .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.6rem;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .team .team_box .profile{
+        margin: 10px auto 10px auto
+    }
+
+
+    footer {
+        background-color: #557153;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 3rem;
+        
+    }
+    
+}
+
+/* Hapeee */
+
+@media (max-width: 450px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #star {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #1a5e3d;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav a{
+        color: #ead5db;
+        font-size: 2rem;
+        display: block;
+        margin: 2rem;
+        padding: 0.5rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+
+}
