@@ -232,7 +232,10 @@ html {
 
 .produk .row .product-card img {
     border-radius: 50%;
-    width: 80%;
+    width: 230px;
+    height: 230px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .produk .row .product-card .product-card-title{
