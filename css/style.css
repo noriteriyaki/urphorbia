@@ -450,7 +450,8 @@ footer .credit p {
     #star {
         display: inline-block;
     }
-
+    
+   
     .navbar .navbar-nav {
         position: absolute;
         top: 100%;
@@ -530,6 +531,9 @@ footer .credit p {
         flex-wrap: wrap;
     }
 
+    footer {
+        margin-top: 30rem;
+    }
 
     
     
@@ -575,6 +579,15 @@ footer .credit p {
     .navbar .navbar-nav.active {
         right: 0;
     }
+    
+    body {
+        min-height: 480vh;
+    }
+    
+    footer {
+        margin-top: 70rem;
+    }
+          
 
     
 }
