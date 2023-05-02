@@ -215,6 +215,7 @@ html {
     font-weight: 200;
     line-height: 1.6;
     font-size: 20px;
+    font-family: 'Dosis', sans-serif;
     
 }
 
@@ -578,6 +579,16 @@ footer .credit p {
 
     .navbar .navbar-nav.active {
         right: 0;
+    }
+    
+    .produk p {
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    
     }
     
     body {
