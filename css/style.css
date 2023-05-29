@@ -240,7 +240,7 @@ html {
     margin-right: 2rem;
 }
 
-.produk .row .product-card .product-card-title{
+.produk .row .product-card .product-card-title {
     margin-top: 1rem auto 0.5rem;
     font-size: 2rem;
     display: inline-block;
@@ -252,7 +252,7 @@ html {
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-.produk .row .product-card .cta{
+.produk .row .product-card .cta {
     margin-top: 1rem;
     display: inline-block;
     padding: 1rem 2rem;
