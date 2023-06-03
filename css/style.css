@@ -22,12 +22,11 @@ html {
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
-    background-color: #FFACAC;
-    border-bottom: 1px solid var(--primary);
+    background-color: #ffacacd9;
     position: fixed;
     top: 0;
     left: 0;
